@@ -1,1 +1,32 @@
 /* Your code here */
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&display=swap');
+.card-1{
+  background-color: transparent;
+  
+}
+body{
+  background-color: rgb(213, 210, 210);
+}
+h1{
+  color: rgba(70, 67, 67, 0.488);
+  font-family: Caveat;
+}
+div{
+  color: rgba(79, 76, 76, 0.446);
+}
+.attribution{
+  font-family: Caveat;
+}
+.sign{
+  margin-right: 100px;
+  margin-bottom: 50px;
+  margin-top: 140px;
+  margin-left: 240px;
+  
+}
+.sig{
+   margin-right: 50px;
+  margin-bottom: 50px;
+  margin-top: 50px;
+  margin-left: 50px;
+}

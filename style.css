@@ -1,9 +1,11 @@
 /* Your code here */
 @import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&display=swap');
-.card-1{
-  background-color: transparent;
-  position:relative;
-  border-radius: 0.2in;
+.card-1 {
+    background-color: transparent;
+    position: relative;
+    border-radius: 0.2in;
+    display: flex;
+    align-items: flex-end;
 }
 body{
   background-color: rgb(160, 150, 150);
@@ -21,43 +23,35 @@ div{
 .sign{
   height: 2in;
   width: .8in;
-  background-color: ;
-  display: inline-block;
-  
-  
+  background-color: red;
 }
 .brand {
-  display: inline-block;
   width: 1in;
+  background-color: green;
+  height: 50px;
 }
-.sig{ 
-  display: inline-block;
-  rotate: 270deg;
-  height: 2in;
-  width: 1in;
-  
-}
-.card-1 .foreground{
-  position: absolute;
-  top: 0;
-  left:0;
-  width: 3.5in;
-  height:2in;
-  padding-left: 80px;
-  padding-top: 138px;
-  font-family: Caveat;
-  font-size: larger;
-  color:black;
-  
+.sig {
+    height: 1in;
+    width: .5in;
+    background-color: blue;
+    align-self: center;
 }
 
+.sig img {
+  rotate: 270deg;
+  transform-origin: bottom;
+  
+}
 
 p{
-  margin-top:-20px;;
+  margin-top:-20px;
 }
 
 .thi{
-  rotate:90deg;
+  
   display: inline-block;
+  background-color: antiquewhite;
+  rotate: 90deg;
+  height: 50px;
 }
 

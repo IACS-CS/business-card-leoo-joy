@@ -6,6 +6,7 @@
     border-radius: 0.2in;
     display: flex;
     align-items: flex-end;
+    justify-content: space-between;
 }
 body{
   background-color: rgb(160, 150, 150);
@@ -20,26 +21,32 @@ div{
 .attribution{
   font-family: Caveat;
 }
-.sign{
+.right{
   height: 2in;
-  width: .8in;
-  background-color: red;
+  background-color:  rgb(160, 150, 150);
+  border-radius: .2in;
+
 }
 .brand {
-  width: 1in;
-  background-color: green;
+  width: .7in;
+  background-color:  rgb(160, 150, 150);
+  margin-bottom: 10px;
   height: 50px;
+  border-right: 1px solid black;
+  padding-bottom: 10px;
+  padding-right: 20px;
 }
 .sig {
     height: 1in;
     width: .5in;
-    background-color: blue;
+    background-color:  rgb(160, 150, 150);
     align-self: center;
 }
 
 .sig img {
   rotate: 270deg;
   transform-origin: bottom;
+  align-self:;
   
 }
 
@@ -47,11 +54,27 @@ p{
   margin-top:-20px;
 }
 
-.thi{
-  
-  display: inline-block;
-  background-color: antiquewhite;
-  rotate: 90deg;
-  height: 50px;
+
+h2{
+  font-size: smaller;
 }
 
+.con{
+  background-color:  rgb(160, 150, 150);
+  width: 1.5in;
+  padding-left: 20px;
+  transform-origin: bottom;
+  margin-top: 85px;
+
+}
+
+
+.card-2{
+   background-color: rgb(54, 74, 50);
+   border-radius: .2in;
+}
+
+.right img{
+  margin-left: 61px;
+}
+}

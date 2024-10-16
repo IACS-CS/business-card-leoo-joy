@@ -1,7 +1,8 @@
 /* Your code here */
 @import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bahiana&display=swap');
 .card-1 {
-    background-color: transparent;
+    background-color: rgb(54, 74, 50);
     position: relative;
     border-radius: 0.2in;
     display: flex;
@@ -16,31 +17,33 @@ h1{
   font-family: Caveat;
 }
 div{
-  color: rgba(79, 76, 76, 0.446);
+  color: rgb(0, 0, 0);
 }
 .attribution{
   font-family: Caveat;
 }
 .right{
   height: 2in;
-  background-color:  rgb(160, 150, 150);
+  background-color:  rgb(54, 74, 50);
   border-radius: .2in;
 
 }
 .brand {
   width: .7in;
-  background-color:  rgb(160, 150, 150);
+  background-color:  rgb(54, 74, 50);
   margin-bottom: 10px;
-  height: 50px;
+  height: 40px;
   border-right: 1px solid black;
   padding-bottom: 10px;
   padding-right: 20px;
+  padding-left: 50px;
 }
 .sig {
     height: 1in;
     width: .5in;
-    background-color:  rgb(160, 150, 150);
+    background-color: rgb(54, 74, 50);
     align-self: center;
+    padding-bottom: 60px;
 }
 
 .sig img {
@@ -60,7 +63,7 @@ h2{
 }
 
 .con{
-  background-color:  rgb(160, 150, 150);
+  background-color:  rgb(54, 74, 50);
   width: 1.5in;
   padding-left: 20px;
   transform-origin: bottom;
@@ -77,4 +80,80 @@ h2{
 .right img{
   margin-left: 61px;
 }
+
+.word{
+  font-family: Bahiana;
+  font-size:xx-large;
+
+}
+.real{
+  font-family: Bahiana;
+}
+
+.card-2{
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.card-3{
+  background-color: rgb(54, 74, 50);
+    border-radius: .1in;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-content: center;
+    align-items: center;
+}
+}
+
+/* 
+https://css-tricks.com/the-shapes-of-css/
+*/
+    #base {
+    background: rgb(0, 0, 0);
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    height: 180px;
+    color: blanchedalmond;
+    margin-left: 30px;
+    margin-top: 55px;
+    position: relative;
+    width: 132px;
+    }
+    #base:before {
+    border-bottom: 35px solid rgb(0, 0, 0);
+    border-left: 70px solid transparent;
+    border-right: 62px solid transparent;
+    content: "";
+    height: 0;
+    left: 0;
+    position: absolute;
+    top: -35px;
+    width: 0;
+    }
+
+.card-4{
+  background-color: rgb(54, 74, 50) ;
+  border-radius: .1in;
+
+}
+
+.idk{
+  display:block;
+  margin-left: 50px;
+  margin-top:60px;
+}
+
+.info{
+    border-bottom-left-radius: .1in;
+    display: block;
+    text-align: center;
+    height: 1.9in;
+    background-color: white;
+    margin-top: 60px;
+    border-bottom-right-radius: .1in
+
 }

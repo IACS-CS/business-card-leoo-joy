@@ -39,22 +39,16 @@ div{
   padding-left: 50px;
 }
 .sig {
-    height: 1in;
-    width: .5in;
-    background-color: rgb(54, 74, 50);
-    align-self: center;
-    padding-bottom: 60px;
+  height: 1in;
+  width: .5in;
+  background-color: rgb(54, 74, 50);
+  align-self: center;
+  padding-bottom: 60px;
 }
 
 .sig img {
   rotate: 270deg;
   transform-origin: bottom;
-  align-self:;
-  
-}
-
-p{
-  margin-top:-20px;
 }
 
 
@@ -106,33 +100,36 @@ h2{
     align-content: center;
     align-items: center;
 }
-}
+
 
 /* 
 https://css-tricks.com/the-shapes-of-css/
 */
-    #base {
-    background: rgb(0, 0, 0);
+#base {
+    background: #000000;
     display: inline-flex;
-    justify-content: center;
-    align-items: center;
-    height: 180px;
-    color: blanchedalmond;
-    margin-left: 30px;
-    margin-top: 55px;
+    height: 160px;
+    margin-left: 4px;
+    margin-top: 76px;
     position: relative;
-    width: 132px;
+    width: 130px;
+    justify-content: flex-start;
+    align-items: center;
+    color: azure;
+    flex-direction: column;
+
     }
     #base:before {
-    border-bottom: 35px solid rgb(0, 0, 0);
-    border-left: 70px solid transparent;
-    border-right: 62px solid transparent;
-    content: "";
-    height: 0;
-    left: 0;
-    position: absolute;
-    top: -35px;
-    width: 0;
+     border-bottom: 35px solid black;
+     border-left: 65px solid transparent;
+     border-right: 65px solid transparent;
+     content: "";
+     height: 0;
+     left: 0;
+     position: absolute;
+     top: -35px;
+     width: 0;
+      
     }
 
 .card-4{
@@ -148,12 +145,48 @@ https://css-tricks.com/the-shapes-of-css/
 }
 
 .info{
-    border-bottom-left-radius: .1in;
-    display: block;
-    text-align: center;
-    height: 1.9in;
-    background-color: white;
-    margin-top: 60px;
-    border-bottom-right-radius: .1in
+  border-bottom-left-radius: .1in;
+  display: block;
+  text-align: center;
+  height: 1.9in;
+  background-color: white;
+  margin-top: 60px;
+  border-bottom-right-radius: .1in;
+  font-family: Bahiana;
+  font-size: large;
+  justify-content: center;
+  padding-top: 20px;
 
 }
+
+.wor p{
+  justify-content: center;
+  font-family: Caveat;
+  font-size: large;
+}
+
+.cor p{
+  font-family: Caveat;
+  font-size: small;
+  padding-top: 1px;
+  border-bottom: .5px solid black;
+  margin-top: -20px;
+}
+
+.ad{
+  font-family: Caveat;
+  color: white;
+  display: flex;
+  
+}
+
+.roo{
+  color: white;
+  font-family: Caveat;
+  display: flex;
+  font-size: small;
+}
+
+
+
+
